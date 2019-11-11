@@ -1,0 +1,53 @@
+.perso1:hover {
+    color: blue;
+}
+
+.fondo {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/principal_roque.jpg);
+}
+
+.conte2 {
+    top: 20vh;
+}
+
+.sombra {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+}
+
+.diferenciador {
+    background-color: #8080ff;
+}
+
+.diferenciador2 {
+    background-color: black;
+}
+
+.diferenciador2 {
+    background-color: white;
+}
+
+.centrado {
+    top: 10vh;
+}
+
+.separador {
+    top: 1vh;
+}
+
+#footer {
+    background-color: #343A40;
+    height: 20vh;
+    color: white;
+}
+
+#dofooter {
+    background-color: #212529;
+}
