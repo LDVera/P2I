@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/css/all.css">
     <link rel="stylesheet" href="css/css/all.min.css">
     <link rel="stylesheet" href="css/css/solid.css">
@@ -24,54 +25,102 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link pr-3" href="index.html">Inicio<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link pr-3" href="#">Iniciar Sesión</a>
+                <li class="nav-item">
+                    <a class="nav-link pr-3" href="login.html">Iniciar Sesión</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link pr-3" href="#">Registrarse</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link pr-3" href="#">Acerca de nosotros</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
             </form>
         </div>
     </nav>
     <div class="fondo">
         <div class="container-fluid col-12 pl-0 pr-0 sombra">
-            <div class="centrado mx-auto pt-5 col-12">
-                <div class="row">
-                    <div class="col-12 foto">
-                        <img class="img-fluid mx-auto d-block" src="img/TICs_web.png" alt="">
-
+            <div class="centrado mx-auto pt-5 col-12 pl-0 pr-0 mr-0">
+                <div class="row corrector">
+                    <div class="col-12 mx-auto pb-5 pr-0">
+                        <h1 class="bienve text-center mr-0 animated bounce delay-1s">Bienvenido Carnero</h1>
                     </div>
                 </div>
-                <hr/>
-                <div class="row">
-                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 info mx-auto">
-                        <input type="email" class="form-control" placeholder="name@example.com">
+                <!--
+                <div class="row pt-2 pb-5">
+                    <div class="col-4">
+                        <img class="img-fluid" src="http://www.oaxaca.tecnm.mx/web/wp-content/uploads/2018/09/Logo-TecNM-2018-642x222.png" alt="Logo">
                     </div>
-
+                    <div class="col-4">
+                        <img class="img-fluid" src="http://campusemi.itroque.edu.mx/pluginfile.php/1/theme_academi/logo/1548820766/logo1.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid sep" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/SEP_Logo_2019.svg/1280px-SEP_Logo_2019.svg.png" alt="">
+                    </div>
+                </div>
+                -->
+                <div id="carouselExampleIndicators" class="carousel slide pt-0 pr-0 pl-0" data-ride="carousel">
+                    <!--<ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol<>
+                                -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/banner1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/banner2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://www.itroque.edu.mx/images/2019/banner/BANNER%20XIV%20JORNADAS%20AGO-DIC_19----CORREGIDO(1).jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 info mx-auto">
-                        <input type="password" class="form-control" placeholder="Contraseña">
-                        </br>
+                    <div class="col-12 cambio mr-0">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="text-center cambio1 pb-5">¿Te atreves a ser parte del cambio?</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3"><img src="http://itroque.edu.mx/images/imalogos/Gestion_empresarial_web.png" alt="" class="mx-auto img-fluid"></div>
+                            <div class="col-3"><img src="http://itroque.edu.mx/images/imalogos/TICs_web.png" alt="" class="mx-auto img-fluid"></div>
+                            <div class="col-3"><img src="img/Sin título2.png" alt="" class="mx- auto img-fluid"></div>
+                            <div class="col-3"><img src="img/Sin título.png" alt="" class="mx-auto img-fluid"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="text-center pt-5">El proximo 13 de Noviembre del presente año se llevaran a cabo las elecciones de consejales dentro del TecNM Campus Apaseo el Alto, ¡¡Has Valer tu voz y Tu voto!!
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <hr/>
-                <div class="row">
-                    <button type="submit" class="btn btn-outline-info mx-auto"><i class="fas fa-address-card">Ingresar</i></button>
                 </div>
 
             </div>
+
+
         </div>
+
+
+    </div>
     </div>
 
 
@@ -85,7 +134,8 @@
                 <div class="col-md-6 mt-md-0 mt-3">
                     <!-- Content -->
                     <h5 class="text-uppercase">Tecnologico Nacional de México en Roque Campus Apaseo el Alto</h5>
-                    <p>Here you can use rows and columns to organize your footer content.</p>
+                    <p>Somos una comunidad de estudiantes impulsados a aprender nuevas tecnologias y Aptitudes que nos ayuden a desarrollarnos como profesionales</p>
+                    <p>"En el campo esta la supervivencia y en tus manos la solución"</p>
                 </div>
                 <!-- Grid column -->
                 <hr class="clearfix w-100 d-md-none pb-3">
@@ -119,10 +169,10 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!"><i class="fab fa-facebook pr-2"></i>Facebook</a>
+                            <a href="https://www.facebook.com/B%C3%A1sicas-Apaseo-El-Alto-232259223887237/"><i class="fab fa-facebook pr-2"></i>Facebook</a>
                         </li>
                         <li>
-                            <a href="#!"><i class="fab fa-twitter-square pr-2"></i>Twitter</a>
+                            <a href="https://twitter.com/tecnmroque?lang=en"><i class="fab fa-twitter-square pr-2"></i>Twitter</a>
                         </li>
                         <li>
                             <a href="#!"><i class="fab fa-instagram pr-2"></i>Instagram</a>
@@ -160,4 +210,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html>}
