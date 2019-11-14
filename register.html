@@ -5,11 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/css/all.css">
-    <link rel="stylesheet" href="css/css/all.min.css">
-    <link rel="stylesheet" href="css/css/solid.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/stilos.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <title>TecNM Roque</title>
 </head>
 
@@ -31,15 +28,15 @@
                     <a class="nav-link pr-3" href="login.html">Iniciar Sesión</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link pr-3" href="register.html">Registrarse</a>
+                    <a href="" class="nav-link pr-3">Registrarse</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link pr-3" href="#">Acerca de nosotros</a>
+                <li class=" nav-item ">
+                    <a class="nav-link pr-3 " href="# ">Acerca de nosotros</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            <form class="form-inline my-2 my-lg-0 ">
+                <input class="form-control mr-sm-2 " type="search " placeholder="Buscar " aria-label="Search ">
+                <button class="btn btn-outline-success my-2 my-sm-0 " type="submit ">Buscar</button>
             </form>
         </div>
     </nav>
@@ -47,22 +44,90 @@
         <div class="container-fluid col-12 pl-0 pr-0 sombra1">
             <div class="centrado mx-auto pt-5 col-12">
                 <div class="row">
-                    <div class="col-12 foto">
-                        <img class="img-fluid mx-auto d-block animated zoominup delay-2s" src="img/TICs_web.png" alt="">
+                    <div class="col-12 foto regi">
+                        <img class="img-fluid mw-50 mx-auto d-block animated zoominup delay-2s" src="img/registro_usuario2.png" alt="new_user">
 
                     </div>
                 </div>
                 <hr/>
-                <div class="row">
-                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 info mx-auto pb-2">
-                        <input type="email" class="form-control" placeholder="nombre@ejemplo.com">
-                    </div>
 
-                </div>
                 <div class="row">
-                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 info mx-auto">
-                        <input type="password" class="form-control" placeholder="Contraseña">
-                        </br>
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 info d-inline mx-auto">
+                        <div>
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 info d-inline mx-auto pt-2">
+                        <div>
+                            <input type="text" class="form-control" placeholder="Apellido Paterno">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 info d-inline mx-auto pt-2">
+                        <div>
+                            <input type="text" class="form-control" placeholder="Apellido Materno">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 info d-inline mx-auto pt-2">
+
+                        <div class="input-group pb-0">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="inputGroupSelect01">Carrera</label>
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect01">
+                                      <option selected>Selecciona una...</option>
+                                      <option value="1">Tic´s</option>
+                                      <option value="2">Gestion Empresarial</option>
+                                      <option value="3">Industrias Alimentarias</option>
+                                      <option value="4">Agronomia</option>
+                                    </select>
+                        </div>
+                        <!--
+                        <div>
+                            <input type="text" class="form-control" placeholder="Carrera">
+                        </div>
+                    -->
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 info d-inline pt-2 mx-auto">
+                        <div class="input-group mb-0">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">@</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Correo Electronico" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                </div>
+
+                <!--
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 info d-inline mx-auto">
+                        <div>
+                            Correo:
+                        </div>
+                        <div>
+                            <input type="email" class="form-control" placeholder="nombre@ejemplo.com">
+                        </div>
+                    </div>
+                </div>
+-->
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 info pt-2 mx-auto">
+                        <div>
+                            <input type="password" class="form-control" placeholder="Contraseña">
+                        </div>
                     </div>
                 </div>
                 <hr/>
@@ -73,6 +138,7 @@
             </div>
         </div>
     </div>
+
 
 
     <!-- Footer -->
@@ -152,8 +218,6 @@
 
     </footer>
     <!-- Footer -->
-
-
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
